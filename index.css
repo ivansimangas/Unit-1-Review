@@ -1,0 +1,29 @@
+.general {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ad {
+  background-color: lightpink;
+  color: teal;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+#search {
+  flex: 1;
+  padding: 0.1rem;
+}
+
+.unordered {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: teal;
+}
